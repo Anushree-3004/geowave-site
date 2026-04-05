@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GeoWav — Location-Based Automation &amp; WhatsApp Messaging</title>
-  <meta name="description" content="GeoWav is a mobile app that automates WhatsApp messages, reminders, and habit tracking based on your real-time location. Create geofenced places, link contacts, and let GeoWav handle the rest.">
-  <meta name="keywords" content="geofencing, WhatsApp automation, location-based messaging, geofence alerts, habit tracking, location reminders, React Native app">
+  <title>GeoWav — Location-Based WhatsApp Automation Platform</title>
+  <meta name="description" content="GeoWav is a location-based automation platform that uses geofencing to trigger WhatsApp notifications and smart reminders in real time. Automate communication based on where you are.">
+  <meta name="keywords" content="geofencing, WhatsApp automation, location-based messaging, geofence alerts, habit tracking, location reminders, WhatsApp Business API">
   <meta name="author" content="GeoWav">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="GeoWav — Location-Based Automation &amp; WhatsApp Messaging">
-  <meta property="og:description" content="Automate communication and reminders based on your real-time location. Geofencing meets WhatsApp messaging.">
+  <meta property="og:title" content="GeoWav — Location-Based WhatsApp Automation Platform">
+  <meta property="og:description" content="Automate WhatsApp messages, reminders, and habit tracking based on your real-time location with geofencing technology.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://geowav.app">
 
@@ -35,13 +35,12 @@
         GeoWav
       </a>
       <div class="nav-links" id="navLinks">
-        <a href="#about">About</a>
+        <a href="#what-is-geowav">About</a>
         <a href="#features">Features</a>
-        <a href="#use-cases">Use Cases</a>
         <a href="#how-it-works">How It Works</a>
+        <a href="#use-cases">Use Cases</a>
         <a href="#privacy">Privacy</a>
         <a href="#contact">Contact</a>
-        <a href="https://github.com/Anushree-3004/geowav" target="_blank" rel="noopener noreferrer" class="nav-cta">GitHub</a>
       </div>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <span></span>
@@ -57,34 +56,31 @@
       <div class="hero-content">
         <div class="hero-badge">
           <span class="dot"></span>
-          Built with React Native &amp; Expo
+          Location-Based Automation Platform
         </div>
-        <h1>Automate Your World with <span class="gradient-text">Location Intelligence</span></h1>
+        <h1>GeoWav</h1>
         <p class="hero-tagline">
-          GeoWav is a mobile app that automatically sends WhatsApp messages when you arrive at or leave a location.
+          Automate WhatsApp messages and reminders based on your real-time location.
         </p>
         <p class="hero-description">
-          Define geofenced places on a map, link your contacts, and write a message. When you cross a geofence boundary, GeoWav detects it in real time and sends your message via WhatsApp — no manual action needed. It also includes location-based reminders and habit tracking to help you build routines around the places you visit every day.
+          GeoWav is a location-based automation platform that uses geofencing technology to trigger WhatsApp notifications, smart reminders, and habit tracking — all in real time. Define a location, link your contacts, and GeoWav handles the rest automatically.
         </p>
         <div class="btn-group">
-          <a href="#about" class="btn btn-primary">Learn More</a>
-          <a href="https://github.com/Anushree-3004/geowav" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            View on GitHub
-          </a>
+          <a href="#what-is-geowav" class="btn btn-primary">Learn More</a>
+          <a href="#how-it-works" class="btn btn-secondary">See How It Works</a>
         </div>
         <div class="hero-stats">
           <div class="stat">
-            <span class="stat-value">Real-time</span>
+            <span class="stat-value">Real-Time</span>
             <span class="stat-label">Geofence Detection</span>
           </div>
           <div class="stat">
             <span class="stat-value">WhatsApp</span>
-            <span class="stat-label">Cloud API Integration</span>
+            <span class="stat-label">Business Cloud API</span>
           </div>
           <div class="stat">
             <span class="stat-value">Background</span>
-            <span class="stat-label">Location Tracking</span>
+            <span class="stat-label">Location Monitoring</span>
           </div>
         </div>
       </div>
@@ -94,7 +90,7 @@
         <div class="hero-floating-card top-left">
           <div class="floating-icon green">✅</div>
           <div>
-            <div class="floating-text">Message Sent</div>
+            <div class="floating-text">Message Delivered</div>
             <div class="floating-subtext">"Arrived at office safely"</div>
           </div>
         </div>
@@ -161,63 +157,53 @@
     </div>
   </section>
 
-  <!-- ===== About ===== -->
-  <section class="about" id="about">
+  <!-- ===== What Is GeoWav ===== -->
+  <section class="what-is" id="what-is-geowav">
     <div class="container">
-      <div class="about-grid">
-        <div class="about-content">
-          <span class="section-label">About GeoWav</span>
-          <h2 class="section-title">Smart Location Automation for Everyday Life</h2>
-          <p class="section-subtitle">
-            GeoWav is a mobile application that combines real-time geofencing with automated WhatsApp messaging. Define locations that matter to you, link your contacts, and let the app handle notifications when you arrive or leave — automatically and reliably.
+      <div class="section-header">
+        <span class="section-label">What Is GeoWav?</span>
+        <h2 class="section-title">A Location-Based Automation Platform for WhatsApp Messaging</h2>
+      </div>
+      <div class="what-is-content">
+        <div class="what-is-text">
+          <p>
+            GeoWav is a mobile application that automates WhatsApp messages using real-time geofencing. Users define geographic locations on a map, set a geofence radius, write a custom message, and link contacts. When the user enters or exits that location, GeoWav automatically detects the boundary crossing and sends the pre-configured WhatsApp message to the linked contacts — with no manual action required.
           </p>
-          <p class="section-subtitle">
-            Beyond messaging, GeoWav supports location-based reminders and habit tracking, turning your daily movements into productive triggers for communication and self-improvement.
+          <p>
+            All messages are sent through <strong>Meta's official WhatsApp Business Cloud API</strong> using pre-approved message templates, ensuring full compliance with WhatsApp's messaging policies. GeoWav does not send unsolicited messages — every notification is explicitly configured by the user.
           </p>
-          <div class="about-list">
-            <div class="about-list-item">
-              <div class="about-list-icon">📍</div>
-              <div class="about-list-text">
-                <h4>Precision Geofencing</h4>
-                <p>Create places with customizable radii (50m+) and choose entry, exit, or both triggers for each location.</p>
-              </div>
-            </div>
-            <div class="about-list-item">
-              <div class="about-list-icon">💬</div>
-              <div class="about-list-text">
-                <h4>WhatsApp Cloud API</h4>
-                <p>Send template messages through Meta's official WhatsApp Business API — reliable, compliant, and secure.</p>
-              </div>
-            </div>
-            <div class="about-list-item">
-              <div class="about-list-icon">🔔</div>
-              <div class="about-list-text">
-                <h4>Reminders &amp; Habit Tracking</h4>
-                <p>Set location-triggered reminders and track habits tied to places — like logging workouts when you reach the gym.</p>
-              </div>
-            </div>
-          </div>
+          <p>
+            In addition to messaging, GeoWav includes <strong>location-based reminders</strong> and a <strong>habit tracking system</strong> that can auto-complete habits when the user arrives at a linked location, helping users build productive routines tied to the places they visit every day.
+          </p>
         </div>
-        <div class="about-visual">
-          <div class="about-stat-card">
-            <div class="about-stat-icon">🗺️</div>
-            <h3>Geofencing</h3>
-            <p>Real-time entry and exit detection using GPS with Haversine distance calculation</p>
+        <div class="what-is-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">📍</div>
+            <div>
+              <h4>Geofence Detection</h4>
+              <p>Real-time GPS monitoring with Haversine distance calculation for accurate boundary detection.</p>
+            </div>
           </div>
-          <div class="about-stat-card">
-            <div class="about-stat-icon">📲</div>
-            <h3>WhatsApp</h3>
-            <p>Automated template messages via Meta's official Cloud API with token management</p>
+          <div class="highlight-card">
+            <div class="highlight-icon">💬</div>
+            <div>
+              <h4>WhatsApp Cloud API</h4>
+              <p>Messages delivered through Meta's official Business API using approved templates.</p>
+            </div>
           </div>
-          <div class="about-stat-card">
-            <div class="about-stat-icon">⏰</div>
-            <h3>Reminders</h3>
-            <p>Location-aware reminders that trigger when you arrive at or leave specific places</p>
+          <div class="highlight-card">
+            <div class="highlight-icon">🔔</div>
+            <div>
+              <h4>Smart Reminders</h4>
+              <p>Location-triggered reminders that activate when you arrive at or leave a place.</p>
+            </div>
           </div>
-          <div class="about-stat-card">
-            <div class="about-stat-icon">📊</div>
-            <h3>Habit Tracking</h3>
-            <p>Build consistent routines tied to the places you visit every day</p>
+          <div class="highlight-card">
+            <div class="highlight-icon">📊</div>
+            <div>
+              <h4>Habit Tracking</h4>
+              <p>Build consistent routines with auto-completion tied to the places you visit.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -230,38 +216,79 @@
       <div class="section-header">
         <span class="section-label">Features</span>
         <h2 class="section-title">Everything You Need for Location Automation</h2>
-        <p class="section-subtitle">GeoWav combines geofencing, messaging, and productivity into a single, easy-to-use mobile experience.</p>
+        <p class="section-subtitle">GeoWav combines geofencing, WhatsApp messaging, and productivity tools into one reliable platform.</p>
       </div>
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon blue">📍</div>
-          <h3>Location-Based Automation</h3>
-          <p>Define geofenced places with custom radii and trigger types. GeoWav continuously monitors your location in the background and reacts when you cross a boundary.</p>
+          <h3>Custom Geofencing</h3>
+          <p>Create geofenced places with custom radii starting from 50 meters. Choose entry, exit, or both as trigger conditions. GeoWav monitors boundaries in the background continuously.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon green">💬</div>
-          <h3>WhatsApp Alerts</h3>
-          <p>Automatically send WhatsApp template messages to linked contacts when you enter or exit a geofenced location. Powered by Meta's official WhatsApp Business Cloud API.</p>
+          <h3>WhatsApp Message Automation</h3>
+          <p>Automatically send WhatsApp messages to linked contacts when a geofence is triggered. Messages are delivered via Meta's official WhatsApp Business Cloud API using approved templates.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon orange">🔔</div>
-          <h3>Smart Reminders</h3>
-          <p>Set reminders tied to specific locations. Get prompted to take action the moment you arrive somewhere — no more forgetting tasks when you reach a place.</p>
+          <h3>Location-Based Reminders</h3>
+          <p>Set reminders tied to specific locations. Get notified the moment you arrive at or leave a place — never forget a task when you reach your destination.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon purple">📊</div>
           <h3>Habit Tracking</h3>
-          <p>Track daily habits linked to the places you visit. Whether it's the gym, office, or library — GeoWav helps you build location-aware routines.</p>
+          <p>Track daily and weekly habits linked to the places you visit. Habits can auto-complete when you enter a linked location, with streak tracking and calendar heatmaps.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon red">⚡</div>
-          <h3>Real-Time Geofence Detection</h3>
-          <p>High-accuracy GPS tracking with 20-meter distance intervals and 10-second update cycles. Detect boundary crossings reliably with Haversine-based distance calculations.</p>
+          <h3>High-Accuracy Detection</h3>
+          <p>GPS tracking with 20-meter distance intervals and 10-second update cycles. Haversine-based distance calculations ensure reliable boundary detection.</p>
         </div>
         <div class="feature-card">
-          <div class="feature-icon teal">🔒</div>
-          <h3>Built-In Message Deduplication</h3>
-          <p>Intelligent two-layer deduplication prevents duplicate alerts — consecutive event filtering at the geofence level and a 5-minute cooldown per contact-place pair.</p>
+          <div class="feature-icon teal">🛡️</div>
+          <h3>Anti-Spam Deduplication</h3>
+          <p>Two-layer deduplication prevents duplicate messages: consecutive event filtering at the geofence level, and a 5-minute cooldown per contact-place pair. No contact ever receives spam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How It Works ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Simple Setup, Fully Automated</h2>
+        <p class="section-subtitle">Get started with location-based WhatsApp automation in four straightforward steps.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Create a Location</h3>
+            <p>Search for a place using Google Places or drop a pin on the map. Set a geofence radius (starting from 50 meters) and choose a trigger type — entry, exit, or both.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Add Contacts and a Message</h3>
+            <p>Add the contacts you want to notify and write a custom message. Link contacts to the location so they receive the message when the geofence is triggered.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>GeoWav Detects Entry or Exit</h3>
+            <p>The app continuously monitors your position in the background using high-accuracy GPS. When you cross a geofence boundary, GeoWav detects it and logs the event.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Message Sent Automatically</h3>
+            <p>Your pre-configured message is queued and delivered to linked contacts via the WhatsApp Business Cloud API within seconds — no manual action required.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -273,81 +300,33 @@
       <div class="section-header">
         <span class="section-label">Use Cases</span>
         <h2 class="section-title">Built for Real-World Scenarios</h2>
-        <p class="section-subtitle">From personal safety to workplace efficiency, GeoWav adapts to the way you live and work.</p>
+        <p class="section-subtitle">From personal safety to workplace efficiency, GeoWav adapts to how you live and work.</p>
       </div>
       <div class="use-cases-grid">
         <div class="use-case-card">
           <div class="use-case-icon">✈️</div>
           <h4>Travel Notifications</h4>
-          <p>Automatically notify family when you arrive at the airport, hotel, or any travel destination.</p>
+          <p>Automatically notify family members when you arrive at the airport, hotel, or any travel destination — so they know you're safe without you needing to remember to text.</p>
         </div>
         <div class="use-case-card">
           <div class="use-case-icon">👨‍👩‍👧</div>
           <h4>Family Safety</h4>
-          <p>Keep loved ones informed with automatic arrival and departure updates from school, work, or home.</p>
-        </div>
-        <div class="use-case-card">
-          <div class="use-case-icon">🚚</div>
-          <h4>Delivery Tracking</h4>
-          <p>Alert customers or teammates when you approach a delivery zone or leave a warehouse.</p>
+          <p>Keep loved ones informed with automatic arrival and departure updates from school, work, or home. Ideal for parents, caregivers, and families who want peace of mind.</p>
         </div>
         <div class="use-case-card">
           <div class="use-case-icon">🏢</div>
           <h4>Workplace Automation</h4>
-          <p>Trigger check-in messages when entering the office or send status updates on departure.</p>
+          <p>Send check-in messages when arriving at the office or status updates when leaving. Streamline team communication without manual effort.</p>
+        </div>
+        <div class="use-case-card">
+          <div class="use-case-icon">🚚</div>
+          <h4>Delivery &amp; Field Updates</h4>
+          <p>Alert customers or teammates when approaching a delivery zone, job site, or client location. Keep stakeholders informed in real time.</p>
         </div>
         <div class="use-case-card">
           <div class="use-case-icon">🎯</div>
           <h4>Personal Productivity</h4>
-          <p>Pair location triggers with reminders and habits to stay on track throughout your day.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== How It Works ===== -->
-  <section class="how-it-works" id="how-it-works">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">How It Works</span>
-        <h2 class="section-title">Get Started in Five Simple Steps</h2>
-        <p class="section-subtitle">Setting up location-based automation with GeoWav takes just a few minutes.</p>
-      </div>
-      <div class="steps">
-        <div class="step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3>Create a Place</h3>
-            <p>Search for a location using Google Places or long-press on the map to drop a pin. Set a geofence radius starting from 50 meters.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3>Add Your Contacts</h3>
-            <p>Add the people you want to notify. Enter their name and phone number in E.164 format for WhatsApp delivery.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3>Configure Your Message</h3>
-            <p>Write a custom message for each place, choose a trigger type (entry, exit, or both), and link the contacts who should receive it.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">4</div>
-          <div class="step-content">
-            <h3>GeoWav Detects Your Location</h3>
-            <p>The app continuously monitors your position in the background using high-accuracy GPS. When you cross a geofence boundary, an event is logged.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">5</div>
-          <div class="step-content">
-            <h3>Messages Are Sent Automatically</h3>
-            <p>Pending messages are queued and delivered via the WhatsApp Cloud API within seconds. You and your contacts stay informed — without lifting a finger.</p>
-          </div>
+          <p>Pair location triggers with reminders and habit tracking. Automatically log gym visits, trigger study reminders at the library, or track daily routines.</p>
         </div>
       </div>
     </div>
@@ -357,43 +336,48 @@
   <section class="privacy" id="privacy">
     <div class="container">
       <div class="section-header">
-        <span class="section-label">Privacy &amp; Data</span>
-        <h2 class="section-title">Your Privacy Is Our Priority</h2>
-        <p class="section-subtitle">GeoWav is designed with transparency and user control at its core. Here's how we handle your data.</p>
+        <span class="section-label">Privacy &amp; Data Policy</span>
+        <h2 class="section-title">Your Privacy, Our Commitment</h2>
+        <p class="section-subtitle">GeoWav is built with transparency, user control, and data protection at its core.</p>
       </div>
       <div class="privacy-content">
+        <div class="privacy-statement">
+          <p>
+            GeoWav respects user privacy. Location data is processed <strong>entirely on-device</strong> to detect geofence events and trigger user-defined actions. We do not store, sell, or share personal data with third parties. All communication is initiated explicitly by the user — no messages are ever sent without the user's direct configuration.
+          </p>
+        </div>
         <div class="privacy-grid">
           <div class="privacy-card">
             <div class="privacy-icon">🛡️</div>
             <div>
-              <h4>Location Data Stays Local</h4>
-              <p>Your location data is processed on-device for geofence detection. It is used solely to determine whether you have entered or exited a defined place — and is never sold, shared, or transmitted to third-party analytics services.</p>
+              <h4>On-Device Location Processing</h4>
+              <p>Your location data is processed locally on your device for geofence detection. Location data is never transmitted to external servers, sold, shared with third-party analytics, or used for advertising purposes.</p>
+            </div>
+          </div>
+          <div class="privacy-card">
+            <div class="privacy-icon">🚫</div>
+            <div>
+              <h4>No Spam, No Unsolicited Messages</h4>
+              <p>GeoWav does not send unsolicited messages. Every WhatsApp message is triggered only by geofence events that the user has explicitly configured — with a specific place, message, and contact. Built-in deduplication ensures contacts are never spammed.</p>
             </div>
           </div>
           <div class="privacy-card">
             <div class="privacy-icon">🔐</div>
             <div>
               <h4>No Data Monetization</h4>
-              <p>GeoWav does not sell, rent, or trade your personal data, location history, or contact information to any third party. Your data exists to serve you — not advertisers.</p>
+              <p>GeoWav does not sell, rent, or trade your personal data, location history, or contact information to any third party. Your data exists to serve you — not advertisers or data brokers.</p>
             </div>
           </div>
           <div class="privacy-card">
             <div class="privacy-icon">✅</div>
             <div>
-              <h4>User-Defined Actions Only</h4>
-              <p>Messages are sent only when you create a place, link a contact, and define a trigger. No messages are ever sent without your explicit configuration. You are always in control of what happens and when.</p>
-            </div>
-          </div>
-          <div class="privacy-card">
-            <div class="privacy-icon">⚙️</div>
-            <div>
               <h4>Full User Control</h4>
-              <p>You can create, edit, or delete places and contacts at any time. Removing a place immediately stops geofence monitoring and message triggers for that location. All automation is fully reversible.</p>
+              <p>You can create, edit, or delete places and contacts at any time. Removing a place immediately stops all geofence monitoring and message triggers for that location. All automation is fully reversible and entirely under your control.</p>
             </div>
           </div>
         </div>
         <div class="privacy-note">
-          <strong>WhatsApp API Compliance:</strong> GeoWav uses Meta's official WhatsApp Business Cloud API to send template messages. All messages are pre-approved templates that comply with Meta's messaging policies. Messages are delivered only to contacts that the user has explicitly added and linked to a geofenced place.
+          <strong>WhatsApp API Compliance:</strong> GeoWav uses Meta's official WhatsApp Business Cloud API to send template messages. All messages use pre-approved templates that comply with Meta's messaging policies. Messages are delivered only to contacts that the user has explicitly added and linked to a geofenced place. GeoWav adheres to WhatsApp's terms of service and business messaging guidelines.
         </div>
       </div>
     </div>
@@ -403,20 +387,14 @@
   <section class="contact" id="contact">
     <div class="container">
       <div class="section-header">
-        <span class="section-label" style="background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8);">Contact</span>
+        <span class="section-label" style="background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8);">Contact Us</span>
         <h2 class="section-title">Get in Touch</h2>
-        <p class="section-subtitle">Have questions about GeoWav, the WhatsApp integration, or want to contribute? We'd love to hear from you.</p>
+        <p class="section-subtitle">Have questions about GeoWav, the WhatsApp integration, or want to report an issue? We're here to help.</p>
+      </div>
+      <div class="contact-developer">
+        <p class="developer-name">Developer: <strong>Anushree Patel</strong></p>
       </div>
       <div class="contact-cards">
-        <a href="https://github.com/Anushree-3004/geowav" target="_blank" rel="noopener noreferrer" class="contact-card">
-          <div class="contact-card-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-          </div>
-          <div class="contact-card-text">
-            <span class="contact-card-label">GitHub</span>
-            <span class="contact-card-value">Anushree-3004/geowav</span>
-          </div>
-        </a>
         <a href="mailto:anushreepatel3004@gmail.com" class="contact-card">
           <div class="contact-card-icon">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
@@ -424,6 +402,15 @@
           <div class="contact-card-text">
             <span class="contact-card-label">Email</span>
             <span class="contact-card-value">anushreepatel3004@gmail.com</span>
+          </div>
+        </a>
+        <a href="https://github.com/Anushree-3004/geowav" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <div class="contact-card-text">
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">Anushree-3004/geowav</span>
           </div>
         </a>
       </div>
@@ -434,14 +421,13 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-left">
-        &copy; 2025 GeoWav. All rights reserved.
+        &copy; 2026 GeoWav. All rights reserved.
       </div>
       <div class="footer-links">
-        <a href="#about">About</a>
+        <a href="#what-is-geowav">About</a>
         <a href="#features">Features</a>
         <a href="#privacy">Privacy</a>
         <a href="#contact">Contact</a>
-        <a href="https://github.com/Anushree-3004/geowav" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
   </footer>
@@ -485,7 +471,7 @@
       });
     }, observerOptions);
 
-    document.querySelectorAll('.feature-card, .use-case-card, .privacy-card, .step, .about-stat-card, .about-list-item').forEach(el => {
+    document.querySelectorAll('.feature-card, .use-case-card, .privacy-card, .step, .highlight-card').forEach(el => {
       el.style.opacity = '0';
       el.style.transform = 'translateY(24px)';
       el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
