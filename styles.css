@@ -328,6 +328,15 @@ h4 { font-size: 1.1rem; }
   background-clip: text;
 }
 
+.hero-tagline {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--color-text);
+  line-height: 1.5;
+  margin-bottom: 16px;
+  max-width: 520px;
+}
+
 .hero-description {
   font-size: 1.15rem;
   color: var(--color-text-secondary);
@@ -1041,6 +1050,11 @@ h4 { font-size: 1.1rem; }
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .hero-tagline {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-description {
